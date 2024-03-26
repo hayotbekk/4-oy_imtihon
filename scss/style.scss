@@ -1,0 +1,157 @@
+.container {
+    width: 100vw;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+// header{
+//     display:grid;
+// }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98.9vw;
+
+    padding-top: 27px;
+    background: #212121FC;
+    padding-bottom: 10px;
+    
+
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+
+    button {
+        font-size: 20px;
+        background-color: transparent;
+        border: none;
+        color: #909090;
+        cursor: pointer;
+        margin-right: 20px;
+
+    }
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+}
+
+.nav-btn {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: #909090;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.header-search {
+    background: #181818;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    width: 555px;
+    color: white;
+    padding: 6px 10px;
+    border: 1.18px solid #424242;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #212121;
+    width: 270px;
+    margin-left: 0;
+
+}
+
+main{
+    display: flex;
+}
+
+
+.site-bar-main {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.site-bar-list {
+    display: flex;
+
+    align-items: center;
+    padding: 10px 40px;
+}
+
+
+
+.site-bar-btn{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 20px;
+    color: #909090;
+    
+
+}
+.bar-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #ffffff;
+
+    
+
+}
+
+.site-bar-subs{
+    img{
+        margin-right: 24px;
+        border-radius: 50%;
+        
+    }
+}
+
+.cards{
+    background: #181818;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img{
+        flex-direction: column;
+    }
+}
